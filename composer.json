@@ -1,0 +1,20 @@
+{
+    "name": "sammy/faker",
+    "description": "data faker",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Sammy\\Faker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sammy"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.21",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
